@@ -15,6 +15,7 @@ I am not a .NET developer so please feel free to apply any quality improvements 
 In addition to the built-in *Translation* module connectors, you can implement your own translation connector with custom logic to serve your requirements.
 
 This project provides a translation connector to work with the popular [DeepL V2 API service](https://developers.deepl.com/docs). 
+**The Connector also works with the Free Tier plan from Deepl so [head over and sign up!](https://www.deepl.com).**
 This project uses the DeepL REST API instead of the [DeepL .NET Library](https://github.com/DeepLcom/deepl-dotnet) due to lack of .NET Framework 4.8 compatibility.
 
 ### Prerequisites
