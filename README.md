@@ -38,11 +38,7 @@ Using one of the generated API keys, configure the connector in the following wa
 1. In Sitefinity CMS backend, navigate to _Administration » Settings » Advanced_.
 2. In the treeview on the left, expand _Translations » Connectors » DeeplMachineTranslatorConnector » Parameters_.
 3. Set the _apiKey_ parameter to the API key provided by DeepL.
-4. Set the _baseURL_ to the URLs for DeepL API v2. 
- For Pro/paying DeepL users this is: https://api.deepl.com/v2 _(Omit the trailing slash!)_ 
- For free Tier users it's https://api-free.deepl.com/v2
- 
- For more information, see https://developers.deepl.com/docs/api-reference/translate
+4. Set the _baseURL_ to the URLs for DeepL API v2.  For Pro/paying DeepL users this is: https://api.deepl.com/v2 _(Omit the trailing slash!)_  For free Tier users it's https://api-free.deepl.com/v2 For more information, see https://developers.deepl.com/docs/api-reference/translate
 5. The _queryString_ parameter is for future compatibility and should be left empty.
 6. Navigate back to _DeeplMachineTranslatorConnector_.
 7. Select _Enabled_ and deselect _Strip HTML tags_.
