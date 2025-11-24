@@ -34,6 +34,22 @@ Add the DeepL translation connector sample project to your solution.
 4. In _SitefinityWebApp_, add a reference to the _Jules.Sitefinity.Translations.DeeplMachineTranslatorConnector_ project.
 5. Build your solution.
 
+### Updating for your Sitefinity version
+Run this command in the Visual Studio Package Manager Console to update the Telerik.Sitefinity.Translations package reference in the connector project to match your Sitefinity version:
+
+```
+Update-Package Telerik.Sitefinity.Translations -Version 15.2.8438
+```
+
+Alternatively, create an assembly binding redirect in your web.config file matching the Sitefinity version you are using, for example:
+
+```
+<dependentAssembly>
+  <assemblyIdentity name="Telerik.Sitefinity.Translations" publicKeyToken="b28c218413bdf563" culture="neutral" />
+  <bindingRedirect oldVersion="0.0.0.0-15.2.8438" newVersion="15.2.8438" />
+</dependentAssembly>
+```
+
 ## Configure the connector
 Using one of the generated API keys, configure the connector in the following way:
 1. In Sitefinity CMS backend, navigate to _Administration » Settings » Advanced_.
